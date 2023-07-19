@@ -1,0 +1,106 @@
+.form {
+  max-width: 40rem;
+  margin: 2rem auto;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form input[type="file"] {
+  display: block;
+  width: 100%;
+  margin: 0.5rem;
+}
+
+.form select {
+  display: block;
+  width: 100%;
+  height: 38px;
+  margin: 0.5rem;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.25rem;
+}
+
+.post{
+  background-color: rgb(47, 47, 129);
+  color: white;
+  font-size: 25px;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.actions button {
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  margin: 10px;
+  border-radius: 4px;
+  color: black;
+  height: 40px;
+  width: 100px;
+  background-color: #9b8b8b;
+}
+
+.actions a {
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--color-gray-300);
+}
+
+.actions button:hover {
+  background-color: rgb(102, 139, 154);
+}
+
+.actions a:hover {
+  background-color: var(--color-gray-800);
+}
+
+button:disabled,
+button:focus:disabled,
+button:hover:disabled,
+button:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.back :hover .backtext {
+  visibility: visible;
+}
+
+.bump {
+  color: red;
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

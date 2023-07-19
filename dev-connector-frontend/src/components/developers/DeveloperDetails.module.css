@@ -1,0 +1,94 @@
+.text {
+  font-family: raleway;
+  font-size: 50px;
+  position: absolute center;
+  text-align: center;
+  /* padding-left: 0%; */
+
+  margin-top: 43px;
+}
+
+.text1 {
+  font-family: raleway;
+  font-size: 31px;
+  text-align: center;
+  /* margin-top: -20px; */
+}
+
+.image {
+  text-align: center;
+  width: 200px;
+
+  height: 200px;
+  border-radius: 75%;
+  border-radius: 75%;
+  box-shadow: 0 0 0 1px #eee;
+  background-size: cover;
+  margin: auto;
+  margin-top: auto;
+  display: block;
+  margin-bottom: -30px;
+}
+
+.trick {
+  display: inline-block;
+  vertical-align: middle;
+  height: 150px;
+}
+
+.image:hover {
+  box-shadow: 0px 5px 20px 0.9px #3f3f3f;
+}
+
+.image:hover {
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+  -webkit-transition: 1.6s ease-in-out;
+  transition: 1.6s ease-in-out;
+}
+
+.trick:hover img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.big-box {
+  display: inline-block;
+  width: 98%;
+  transition: all 0.6s; /*sets a transition (for hover effect)*/
+  padding: 20px 20px 20px 20px;
+  margin: 15px;
+  line-height: 50px;
+  border: 5px solid gray;
+}
+
+/* @media only screen and (min-width: 375px) and (max-width: 812px) {
+  .box {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+} */
+
+.box {
+  text-align: center;
+  width: 520px;
+  padding: 15px;
+  border: 5px solid gray;
+  margin: 0 auto;
+  color: green;
+}
+
+.connect {
+  background-color: #5edaf0;
+  color: #000;
+  padding: 4px 40px;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
+  justify-content: flex-end;
+  float: right;
+  margin-right: 30px;
+}
